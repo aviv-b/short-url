@@ -1,7 +1,6 @@
 # Short-url
 A URL shortener redirects short URLs to long URLs.
 
-
 This project contain 2 projects: `Django` & `Django rest framework` 
 
 
