@@ -14,7 +14,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
  - Encoding length will be `7 digits long` 
  
        This will allow us generate 62^7 tokens ~ 3.5 billon tokens.
- - To Create 7 digit long the id COUNTER will start from `10000000+1`  
+ - To create 7 digit long the id COUNTER will start from `10000000+1`  
  
 ### Base62 algorithm 
   
@@ -29,7 +29,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
       Db1 ranges [100000001, 200000000]  
       Db2 ranges [200000001, 300000000] 
       
-    In Case of failur we can replicate data of master to it’s slave
+    In case of failur we can replicate data of master to it’s slave
     If one of the database reaches its maximum range we can create new database 
     and Zookeeper will assign an unused counter range to this new database.
 
@@ -51,7 +51,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
 Use Docker-Compose to spin up containers `docker-compose up`
 
 ### Main Routes
- - web route: `localhost:8000`
+ - Web route: `localhost:8000`
  - Api route: `localhost:8000/api`
       
  
