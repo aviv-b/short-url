@@ -38,7 +38,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
 - Web API: Python Django rest framework 
 - DB: Sqlite 
 - Front: html, css, bootstrap, jinja
-- Docker-composer 
+- Build: Docker-composer 
 
 ### Settings
 - Located in `Settings.py` file.
