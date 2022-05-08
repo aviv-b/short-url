@@ -43,7 +43,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
 ### Settings
 - Located in `Settings.py` file.
 - To change the initial server counter: `SERVER_ID_COUNTER  = 100000001`
-- To change the defult url: `SERVER_BASE_URL = "http://localhost:8000"`
+- To change the defualt url: `SERVER_BASE_URL = "http://localhost:8000"`
 
 
 
