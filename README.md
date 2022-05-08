@@ -35,7 +35,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
 
 ### Tech Stack 
 - Web pages: Python Django 
-- Web API: Python Django rest freamwork 
+- Web API: Python Django rest framework 
 - DB: Sqlite 
 - Front: html, css, bootstrap
 - Docker-composer 
