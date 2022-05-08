@@ -33,7 +33,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
 - Web pages: Python Django 
 - Web API: Python Django rest freamwork 
 - DB: Sqlite 
-- Front: Html, Css, Bootsrap
+- Front: html, css, Bootstrap
 - Docker-composer 
 
 ### Settings
