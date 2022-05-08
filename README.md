@@ -6,7 +6,7 @@ This project contain 2 projects: Django & Django rest framework
 ![pici](https://github.com/aviv-b/short-url/blob/main/screenshots/success.PNG)
 
 ### Algorithm 
- - Encoding the url Id to `base62` * (A-Z a-z 0-9)
+ - Encoding the url Id to `base62` including [a-z][A-Z][0-9] (A-Z a-z 0-9)
  
         Why not using Hash ? 
         MD5 hash will generate 128 bit and only take the first 7 bits 
