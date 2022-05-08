@@ -19,9 +19,8 @@ This project contain 2 projects: `Django` & `Django rest framework`
 ### Base62 algorithm 
   
     Located in `helpers` as base62.py 
-    Including explanation and examples.
-    Its very simple to understand.
-
+    Very eazy to understand, Including explanation and examples.
+    
 ### Scaling Architecture
     We can use a distributed service Zookeeper to solve the various challenges of a distributed system 
     like a race condition, deadlock, or particle failure of data.
