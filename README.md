@@ -7,11 +7,12 @@ This project contain 2 projects: Django & Django rest framework
 
 ### Algorithm 
  - Encoding the url Id to `base62` * (A-Z a-z 0-9)
-        - Why not using Hash ? 
-        - MD5 hash will generate 128 bit and only take the first 7 bits 
-        - Therefor it doesnt generate unique id. 
+ 
+        Why not using Hash ? 
+        MD5 hash will generate 128 bit and only take the first 7 bits 
+        Therefor it doesnt generate unique id. 
  - Encoding length will be `7 digits long` *
-    * This will allow us generate 62^7 tokens ~ 3.5 billon  
+    -  This will allow us generate 62^7 tokens ~ 3.5 billon  
  - To Create 7 digit long the id COUNTER will start from `10000000+1`  
  
 
