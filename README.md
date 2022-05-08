@@ -16,6 +16,11 @@ This project contain 2 projects: `Django` & `Django rest framework`
        This will allow us generate 62^7 tokens ~ 3.5 billon  
  - To Create 7 digit long the id COUNTER will start from `10000000+1`  
  
+### Encoding algorithm 
+  
+    Located in `helpers` as base.py 
+    Including explanation and examples
+
 
 ### Scaling Architecture
     We can use a distributed service Zookeeper to solve the various challenges of a distributed system 
