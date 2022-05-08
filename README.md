@@ -17,8 +17,15 @@ This project contain 2 projects: Django & Django rest framework
  - To Create 7 digit long the id COUNTER will start from `10000000+1`  
  
 
-### Scaling Architecture 
-
+### Scaling Architecture
+    We can use a distributed service Zookeeper to solve the various challenges of a distributed system like a race condition, deadlock, or particle failure of data.
+    Every database take 10 mil ranges.
+    For example: 
+      Db1 ranges [100000001, 200000000]  
+      Db2 ranges [200000001, 300000000] 
+      
+    In Case of failur we can replicate data of master to it’s slave
+    If one of the database reaches its maximum range we can create new database range and Zookeeper will assign an unused counter range to this new database.
 
 ### Tech Stack 
 - Web pages: Python Django 
