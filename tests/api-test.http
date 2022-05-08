@@ -1,0 +1,49 @@
+
+### VS code rest tool 
+@host = http://localhost:8000/api
+
+###################
+### Get all 
+###################
+get {{host}}/all
+
+
+###################
+### Create url
+###################
+
+### Wrong method
+get {{host}}/create/
+
+### Without params
+post {{host}}/create/
+
+
+
+### Working 
+post {{host}}/create/
+Content-Type: application/json
+
+{
+    "url":"https://www.google.co.il/123"
+}
+
+
+###################
+### Getting url
+###################
+
+
+### Without params
+get  {{host}}/s/
+
+
+### Without params
+get  {{host}}/s/
+
+### Not found 
+get  {{host}}/s/asdasdsad
+
+
+### Working 
+get  {{host}}/s/6LAzo

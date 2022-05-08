@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="form">
+        <form method="POST">
+            {% csrf_token %}
+ 
+            <div class="row">
+                <p class="title">Short url app</p>
+            </div>
+            <div class="row">
+                {{form.long_url}}
+                
+            </div>
+    
+            <div class="row">
+                <input type="submit" name="long" class="btn btn-primary" value="Short">
+            </div>
+
+            {% if short is not None %}
+            <div class="row">
+                <div class="res">
+                        Your short url is: &nbsp;&nbsp; <a href="{{short}}" target="_blank">{{short}}</a> 
+                </div>   
+            </div>
+            {% endif %}
+        </form>
+    </div>
+    
+   
+{% endblock content %}
