@@ -34,8 +34,23 @@ This project contain 2 projects: `Django` & `Django rest framework`
 - Web API: Python Django rest freamwork 
 - DB: Sqlite 
 - Front: Html, Css, Bootsrap
+- Docker-composer 
 
 ### Settings
 - Located in `Settings.py` file.
 - To change the initial server counter: `SERVER_ID_COUNTER  = 100000001`
 - To change the defult url: `SERVER_BASE_URL = "http://localhost:8000"`
+
+
+
+### Build
+Use Docker-Compose to spin up containers `docker-compose up`
+
+### Main Routes
+ - web route: `localhost:8000`
+ - Api route: `localhost:8000/api`
+      
+ 
+
+
+
