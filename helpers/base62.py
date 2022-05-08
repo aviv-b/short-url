@@ -21,7 +21,7 @@ param num:
         ALPHABET[g]*62^1 + ALPHABET[7]*62^0
         16*62^1 + 7*62^0 = 999
     return:
-        9999   
+        999   
         
 @Usage examples:
     print(encode(100000000))    # 6LAze
