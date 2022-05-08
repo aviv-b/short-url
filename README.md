@@ -11,7 +11,7 @@ This project contain 2 projects: `Django` & `Django rest framework`
         Why not using Hash ? 
         MD5 hash will generate 128 bit and only take the first 7 bits 
         Therefor it doesnt generate unique id. 
- - Encoding length will be `7 digits long` *
+ - Encoding length will be `7 digits long` 
  
        This will allow us generate 62^7 tokens ~ 3.5 billon  
  - To Create 7 digit long the id COUNTER will start from `10000000+1`  
